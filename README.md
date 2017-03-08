@@ -35,27 +35,27 @@
 
 ##**打开 AS 并创建新工程**
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/01.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/01.png)
 
 ##**从 Android 视图转为 Project 视图**
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/02.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/02.png)
 
 ##**添加 NDK 支持**
 
 >File -> Project Structure...
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/03.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/03.png)
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/04.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/04.png)
 
 ##**导入 lib 模块**
 
 >File -> New -> Import Module...
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/05.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/05.png)
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/06.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/06.png)
 
 ###**非正常情况**
 
@@ -65,7 +65,7 @@
 
 > Error:Failed to find target with hash string 'android-*' in: *
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/07.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/07.png)
 
 #####**Why**
 
@@ -77,7 +77,7 @@
 
 源代码：
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/08.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/08.png)
 
 修改为：
 
@@ -102,19 +102,19 @@
 
 重新编译。
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/09.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/09.png)
 
 ##**添加 app 模块对 lib 模块的引用**
 
 >File -> Project Structure...
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/10.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/10.png)
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/11.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/11.png)
 
 选择 lib。
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/12.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/12.png)
 
 ##**添加 app 模块的 JNI lib**
 
@@ -122,17 +122,17 @@
 
 >右键 main -> New -> Directory
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/13.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/13.png)
 
 ###**复制 JNI lib 文件到 jniLibs**
 
 JNI lib 文件所在目录：D:\OpenCV-3.2.0-android-sdk\sdk\native\libs
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/14.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/14.png)
 
 ###**配置 JNI lib**
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/15.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/15.png)
 
 修改后，代码为：
 
@@ -186,19 +186,19 @@ JNI lib 文件所在目录：D:\OpenCV-3.2.0-android-sdk\sdk\native\libs
 
 ###**重新编译**
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/16.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/16.png)
 
 ##**复制 face-detection 工程的资源文件到 app 模块**
 
 资源文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\res
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/17.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/17.png)
 
 ##**删除 app 模块 java 文件，复制 face-detection 工程的源代码文件到 app 模块**
 
 源代码文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\src
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/18.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/18.png)
 
 ##**替换 AndroidManifest.xml**
 
@@ -208,7 +208,7 @@ AndroidManifest.xml 文件路径：D:\OpenCV-3.2.0-android-sdk\samples\face-detection
 
 C/C++ 文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\jni
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/19.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/19.png)
 
 ##**修改 CMakeLists.txt**
 
@@ -245,7 +245,7 @@ C/C++ 文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\jni
 
 >Unused import statement
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/20.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/20.png)
 
 #####**Why**
 
@@ -263,7 +263,7 @@ C/C++ 文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\jni
 
 >undefined reference to `__android_log_print'
 
-![](http://github.com/weichao66666/Face_Detection/raw/master/README.md-images/21.png)
+![](https://github.com/weichao66666/Face_Detection/raw/master/README.md-images/21.png)
 
 #####**Why**
 
