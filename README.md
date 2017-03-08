@@ -13,7 +13,7 @@
 
 ---
 
-#***Reference***
+#**Reference**
 
 * [AndroidStudio2.2上opencv开发环境搭建](http://blog.csdn.net/ddjjll8877/article/details/52669593 "http://blog.csdn.net/ddjjll8877/article/details/52669593")
 
