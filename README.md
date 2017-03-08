@@ -228,14 +228,14 @@ C/C++ 文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\jni
     include_directories(${pathToOpenCv}/sdk/native/jni/include)
     
     # 添加待编译的cpp文件
-    add_library(DetectionBasedTracker_jni SHARED ${pathToProject}/app/src/main/cpp/DetectionBasedTracker_jni.h ${pathToProject}/app/src/main/cpp/DetectionBasedTracker_jni.cpp)
+    add_library(detection_based_tracker SHARED ${pathToProject}/app/src/main/cpp/DetectionBasedTracker_jni.h ${pathToProject}/app/src/main/cpp/DetectionBasedTracker_jni.cpp)
     
     # 动态方式加载
     add_library(lib_opencv SHARED IMPORTED)
     # 引入libopencv_java3.so文件
     set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${pathToProject}/app/src/main/jniLibs/${ANDROID_ABI}/libopencv_java3.so)
     
-    target_link_libraries(DetectionBasedTracker_jni lib_opencv log)
+    target_link_libraries(detection_based_tracker lib_opencv log)
 
 ###**非正常情况**
 
