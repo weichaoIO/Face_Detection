@@ -27,7 +27,7 @@
 
 #**准备工作**
 
-（见 [【Eclipse 导入 OpenCV 工程之 face-detection】]( "")）
+（见 [【Eclipse 导入 OpenCV 工程之 face-detection】](https://github.com/weichao66666/face-detection "https://github.com/weichao66666/face-detection")）
 
 ---
 
@@ -281,7 +281,7 @@ OpenCV SDK 中的 liblog.so 未导入。
 
 运行成功。
 
-（结果与[【Eclipse 导入 OpenCV 工程之 face-detection】]( "")一致）
+（结果与[【Eclipse 导入 OpenCV 工程之 face-detection】](https://github.com/weichao66666/face-detection "https://github.com/weichao66666/face-detection")一致）
 
 ---
 
