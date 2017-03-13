@@ -253,7 +253,7 @@ C/C++ 文件所在目录：D:\OpenCV-3.2.0-android-sdk\samples\face-detection\jni
 
 `<>`是在系统默认的目录里找头文件，`""`是在和你的当前代码文件相同的目录里找头文件。源代码不严谨，所以此处找不到文件。
 
-#####**Question**
+#####**Answer**
 
 修改代码`#include <DetectionBasedTracker_jni.h>`为`#include "DetectionBasedTracker_jni.h"`
 
